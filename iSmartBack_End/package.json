@@ -1,0 +1,28 @@
+{
+  "name": "ismart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "client": "node client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nanoid": "^4.0.2",
+    "nodemon": "^2.0.21",
+    "number-generator": "^4.0.6",
+    "ocpp-rpc": "^2.0.0",
+    "shortid": "^2.2.16"
+  }
+}
