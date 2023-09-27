@@ -1,0 +1,87 @@
+@import "../../styles/varaibles.scss";
+
+.table-row {
+  position: relative;
+  display: flex;
+  width: 100%;
+ 
+ 
+  gap: 1rem;
+  font-size: 12px;
+  align-items: center;
+  border-bottom: 1px solid $border-color;
+
+  &:hover {
+    background-color: $background-color;
+  }
+
+  .table-data {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+ 
+    width: 180px;
+    padding: 1rem;
+    overflow-y: scroll;
+    overflow-x: visible;
+    display: inline-block;
+    color: black;
+text-align: center;
+    .status {
+      width: auto;
+      padding: 3px 6px 3px 2px;
+      border-radius: 12px;
+      color: rebeccapurple;
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      width: fit-content;
+      font-weight: 100px;
+      background-color: #cdffcd;
+      color: #007f00;
+    }
+
+    .ended,
+    .active,
+    .available {
+      background-color: #cdffcd;
+ 
+    }
+
+    .charging,
+    .inactive,.completed {
+      background-color: #e4e4fb;
+      color: #4a4aff;
+    }
+
+    .offline , .finished {
+      background-color: #f9e7e8;
+      color: red;
+    }
+
+    .link {
+      // color: black;
+      font-weight: 500;
+    }
+  }
+  .table-data::-webkit-scrollbar {
+    display: none;
+
+  }
+  .delete {
+    color: $thirdly-color;
+  }
+
+  .icon {
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+  }
+}
+
+.table-header {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: text-color;
+  background-color: $background-color;
+}

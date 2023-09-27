@@ -1,0 +1,16 @@
+.new-user {
+  .buttons {
+    display: flex;
+    justify-content: end;
+    gap: 0.5rem;
+  }
+}
+
+.roleOption:hover{
+  background-color: #e9e8fc;
+  cursor: pointer;
+}
+
+.SelectBtn{
+  cursor: pointer; 
+}

@@ -1,0 +1,32 @@
+.signUpCont{
+    margin-top: 3%;
+}
+.signUpCont p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1%;
+}
+.signUpCont >div{
+    border: rgb(167, 167, 167) 1px solid;
+    border-radius: 8px;
+    width: 90%;
+    margin-left: 5px;
+    padding:8px 0;
+    margin-top: 5px;
+}
+.signUpCont input{
+    outline: none;
+    border: none;
+    margin-left: 15px;
+    width: 95%;
+}
+.SubSignUp{
+    width: 100%;
+    margin-top: 2%;
+    background-color: rgb(106, 106, 233); 
+    width: 90%;
+    margin-left: 10px;
+    color: white;
+    padding: 8px 0;
+    border-radius: 15px;
+}

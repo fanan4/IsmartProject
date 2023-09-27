@@ -1,0 +1,21 @@
+@import "../../styles/varaibles.scss";
+
+.btn {
+    background-color: $main-color;
+    color: white;
+    width: auto;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 0.7rem 1rem;
+
+
+
+
+    // &:hover {
+    //     background-color: $main-color;
+    //     border: 1px solid white;
+    //     color: white;
+    // }
+}

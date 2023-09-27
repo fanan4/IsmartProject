@@ -1,0 +1,39 @@
+.error-popup-layer {
+    animation: downing .3s ease-in  ;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    z-index: 1004;
+    display: flex;
+    justify-content: center;
+        .error-popup-container{
+            padding-inline-start: 1rem;
+            background-color: #ebebeb;
+            border-radius: .7rem;
+            align-items: center;
+            gap: 1rem;
+            border: .2rem solid #ca4754;
+            display: flex;
+            color: #727272;
+            .cancel-button{
+                padding: .4rem;
+                margin: .2rem;
+                border-radius: .5rem;
+            }
+            .cancel-button:hover{
+                background-color: #d4d4d4;
+            }
+        }   
+
+        
+        
+}
+@keyframes downing {
+    0% {
+        top: -10rem;
+    }
+    100% {
+        top: 1rem;
+    } 
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "_id": "Charger Id",
+    "chargerName": "Charger Name",
+    "location": "Charger Location",
+    "connectorType": "Connector Type",
+    "connectorId": "Connector Id"
+  }
+]

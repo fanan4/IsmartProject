@@ -1,0 +1,25 @@
+.station-status {
+
+    .chart {
+        width: 50%;
+        margin: 1rem 0rem;
+        margin-left: calc(50% / 2)
+    }
+
+    .status {
+        display: flex;
+        justify-content: space-between;
+        
+        .icon {
+            font-size: 8px
+        }
+        span {
+            font-size: 13px;
+            font-weight: 500;
+        }
+        p {
+            margin-left: 0.8rem;
+            font-size: 12px
+        }
+    }
+}

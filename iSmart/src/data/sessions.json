@@ -1,0 +1,92 @@
+[
+  {
+    "id": "Session Id",
+    "userId": "User Id",
+    "chargerId": "Charger Id",
+    "location": "Location",
+    "sessionStatus": "Session Status",
+    "sessionDuration": "Session Duration",
+    "klwCharged": "KLW Charged",
+    "revenue" : "Revenue" 
+  },
+  {
+    "id": "345380583",
+    "userId": "83048208409",
+    "chargerId": "30840284923",
+    "location": "Ben Gurire",
+    "sessionStatus": "Finished",
+    "sessionDuration": "1h30m",
+    "klwCharged": "72 Klw",
+    "revenue" : "300 DH" 
+  },
+  {
+    "id": "345380583",
+    "userId": "83048208409",
+    "chargerId": "30840284923",
+    "location": "Ben Gurire",
+    "sessionStatus": "Finished",
+    "sessionDuration": "1h30m",
+    "klwCharged": "72 Klw",
+    "revenue" : "300 DH" 
+  },
+  {
+    "id": "345380583",
+    "userId": "83048208409",
+    "chargerId": "30840284923",
+    "location": "Ben Gurire",
+    "sessionStatus": "Finished",
+    "sessionDuration": "1h30m",
+    "klwCharged": "72 Klw",
+    "revenue" : "300 DH" 
+  },
+  {
+    "id": "345380583",
+    "userId": "83048208409",
+    "chargerId": "30840284923",
+    "location": "Ben Gurire",
+    "sessionStatus": "Finished",
+    "sessionDuration": "1h30m",
+    "klwCharged": "72 Klw",
+    "revenue" : "300 DH" 
+  },
+  {
+    "id": "345380583",
+    "userId": "83048208409",
+    "chargerId": "30840284923",
+    "location": "Ben Gurire",
+    "sessionStatus": "Finished",
+    "sessionDuration": "1h30m",
+    "klwCharged": "72 Klw",
+    "revenue" : "300 DH" 
+  },
+  {
+    "id": "345380583",
+    "userId": "83048208409",
+    "chargerId": "30840284923",
+    "location": "Ben Gurire",
+    "sessionStatus": "Finished",
+    "sessionDuration": "1h30m",
+    "klwCharged": "72 Klw",
+    "revenue" : "300 DH" 
+  },
+  {
+    "id": "345380583",
+    "userId": "83048208409",
+    "chargerId": "30840284923",
+    "location": "Ben Gurire",
+    "sessionStatus": "Finished",
+    "sessionDuration": "1h30m",
+    "klwCharged": "72 Klw",
+    "revenue" : "300 DH" 
+  },
+  {
+    "id": "345380583",
+    "userId": "83048208409",
+    "chargerId": "30840284923",
+    "location": "Ben Gurire",
+    "sessionStatus": "Finished",
+    "sessionDuration": "1h30m",
+    "klwCharged": "72 Klw",
+    "revenue" : "300 DH" 
+  }
+]

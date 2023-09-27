@@ -1,0 +1,101 @@
+[
+  {
+    "data": "Data And Time",
+    "location": "Location",
+    "chargerId": "Charger Id",
+    "connectorId": "Connector Id",
+    "userId": "User Id",
+    "sessionDuration": "Session Duration",
+    "sessionStatus": "Session Status"
+  },
+  {
+    "data": "01-03-2023 12h23m",
+    "location": "Ben Gurire",
+    "chargerId": "38409284093",
+    "connectorId": "43",
+    "userId": "348293482",
+    "sessionDuration": "2h00m",
+    "sessionStatus": "Active"
+  },
+  {
+    "data": "01-03-2023 12h23m",
+    "location": "Ben Gurire",
+    "chargerId": "38409284093",
+    "connectorId": "43",
+    "userId": "348293482",
+    "sessionDuration": "2h00m",
+    "sessionStatus": "Active"
+  },
+  {
+    "data": "01-03-2023 12h23m",
+    "location": "Ben Gurire",
+    "chargerId": "38409284093",
+    "connectorId": "43",
+    "userId": "348293482",
+    "sessionDuration": "2h00m",
+    "sessionStatus": "Active"
+  },
+  {
+    "data": "01-03-2023 12h23m",
+    "location": "Ben Gurire",
+    "chargerId": "38409284093",
+    "connectorId": "43",
+    "userId": "348293482",
+    "sessionDuration": "2h00m",
+    "sessionStatus": "Active"
+  },
+  {
+    "data": "01-03-2023 12h23m",
+    "location": "Ben Gurire",
+    "chargerId": "38409284093",
+    "connectorId": "43",
+    "userId": "348293482",
+    "sessionDuration": "2h00m",
+    "sessionStatus": "Active"
+  },
+  {
+    "data": "01-03-2023 12h23m",
+    "location": "Ben Gurire",
+    "chargerId": "38409284093",
+    "connectorId": "43",
+    "userId": "348293482",
+    "sessionDuration": "2h00m",
+    "sessionStatus": "Active"
+  },
+  {
+    "data": "01-03-2023 12h23m",
+    "location": "Ben Gurire",
+    "chargerId": "38409284093",
+    "connectorId": "43",
+    "userId": "348293482",
+    "sessionDuration": "2h00m",
+    "sessionStatus": "Active"
+  },
+  {
+    "data": "01-03-2023 12h23m",
+    "location": "Ben Gurire",
+    "chargerId": "38409284093",
+    "connectorId": "43",
+    "userId": "348293482",
+    "sessionDuration": "2h00m",
+    "sessionStatus": "Active"
+  },
+  {
+    "data": "01-03-2023 12h23m",
+    "location": "Ben Gurire",
+    "chargerId": "38409284093",
+    "connectorId": "43",
+    "userId": "348293482",
+    "sessionDuration": "2h00m",
+    "sessionStatus": "Active"
+  },
+  {
+    "data": "01-03-2023 12h23m",
+    "location": "Ben Gurire",
+    "chargerId": "38409284093",
+    "connectorId": "43",
+    "userId": "348293482",
+    "sessionDuration": "2h00m",
+    "sessionStatus": "Active"
+  }
+]

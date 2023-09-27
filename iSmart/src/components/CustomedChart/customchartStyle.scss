@@ -1,0 +1,65 @@
+.chart{
+    margin-top: 1rem;
+}
+.chart-content{
+    
+    padding: 1rem;
+   
+    background-color: white;
+    border-radius: .3rem;
+}
+ 
+.chart-config{ 
+    background-color: white;
+    padding: .4rem;
+    margin-bottom: .2rem;
+    border-radius: .3rem;
+    display: flex;
+    ;
+    justify-content: space-between;
+    .left{
+        
+        display: flex;
+    gap: .4rem;
+        .dropDown-config{ 
+            background-color: #eaeaea;
+       display: flex;
+       justify-content: center;
+      z-index: 1001;
+            position: relative;
+        padding: .5rem;
+        border-radius: .3rem;
+        .toggle-config{
+            padding: .3rem ;
+            
+           
+            :hover{
+                transition: .2s;
+                    background-color: rgb(216, 216, 216);
+            border-radius: .2rem;
+
+            }
+        }
+    .dropdown-button{
+        cursor: pointer;
+        border: none;
+        border-radius: .2rem;
+        padding: .8rem;
+        align-items: center;
+        background-color: #eaeaea;
+        min-width: 10rem;
+    
+    }  
+    .myMenuClassName{
+        background-color: #eaeaea;
+    border-radius: .2rem;
+    border: none;
+    }
+     
+        }
+
+
+    }
+   
+   
+}

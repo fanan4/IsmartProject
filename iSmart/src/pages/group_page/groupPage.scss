@@ -1,0 +1,62 @@
+@import "../../styles/varaibles.scss";
+
+.page-container{
+    margin-top: 2rem;
+    
+    .chart-stats-contaienr{
+      
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+        .chart-container{
+            flex: 1;
+        }
+         .map-container{
+            flex: 1;
+         }
+    }
+}
+
+.gourp-details-container{
+    width: 100%;
+ padding-top: 6rem;
+    display: flex;
+     align-items: center;
+     justify-content: center; 
+     .group-form{
+        background-color: white;
+        width: 80%;
+       padding: 1rem;
+        .group-details{
+            
+            display: flex;
+    
+        
+            gap: 1rem;
+          .left
+          {display: flex;
+            flex-direction: column;
+            gap: 1rem;
+       
+            flex: 1;
+          }
+          .right{   
+            flex-direction: column;
+            gap: 1rem;
+            flex: 1;
+           
+          }
+    
+        } 
+        .buttons{
+            padding-top: 2rem;
+             margin:auto;
+            .btn{
+                width: 100%;
+            }
+        }
+     }
+
+} 
+
+

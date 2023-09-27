@@ -1,0 +1,79 @@
+.abonned,.non-abonned {.header{
+    font-size: large;
+    border: none;
+    border-radius: .5rem  ;
+   font-weight: 800;
+   margin: 0;
+   padding: 1rem;
+   background: #ffffff;
+    }}
+.plans-section {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 19px 0 ;
+    .plan {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        ul{
+            padding: 0;
+            margin-top: 20px;
+            text-align: left;
+            li{    margin-bottom: 8px;
+                color: #6d6d6d;
+                font-weight: 500;
+                list-style-type:disc;
+            }
+        }
+        .flex{
+            display: flex;
+            gap: 1rem;
+            padding: 1rem 2rem;
+            .left{
+                color: #566134;
+                background-color:  #56613454;
+            }
+            .right{
+             color: #f16d00;
+             background:  #f16c0054;
+                
+            }
+            .price {
+                padding: 1rem 2rem;
+                border-radius:3rem;
+                font-size: 20px;
+                margin: 10px 0;
+                font-weight: 700;
+              
+              
+              }
+        }
+        .h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+  .price {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #566134;
+  
+    
+  }
+  .orange{
+    color: #f16d00;
+  }
+      }
+      
+  }
+  
+
+ 

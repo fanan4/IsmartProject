@@ -1,0 +1,266 @@
+.dropDownContainer {
+  position: relative;
+  cursor: pointer;
+  z-index: 1010;
+ margin: 0;
+  .dropitem_header {
+    
+    border-radius: 0.2rem;
+    background: #eaeaea;
+    padding: 0.3rem;
+width: 10rem;
+color: #595758;
+    justify-content: space-between;
+    display: flex;
+      text-align: center;
+    align-items: center;
+    .header-text{
+ 
+    }
+    .icon-container { 
+
+      display: flex;
+      width: 20px;
+      justify-content: center;
+      align-items: center;
+      padding: 0.2rem;
+      border-radius: 0.4rem;
+      cursor: pointer;
+    }
+  }
+
+  .dropdown_list {
+    animation: slicedown 0.1s ease-out;
+    position: absolute;
+    top: 105%;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: #eaeaea;
+    overflow: auto;
+    max-height: 20rem;
+
+    .control_item {
+ 
+      padding: 20px;
+      cursor: pointer;
+     
+      .radio-container {
+        position: relative;
+
+        padding-left: 30px;
+        /* Adjust the spacing between the radio button and the text */
+        cursor: pointer;
+
+        .radio-input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+        }
+
+        .radio-checkmark {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 23px;
+          width: 23px;
+          border: 4px solid;
+          /* Set the stroke color here */
+          border-radius: 100%;
+          /* Make the shape circular */
+        }
+
+        .radio-checkmark::after {
+          content: "";
+          position: absolute;
+          display: none;
+        }
+
+        .radio-input:checked~.radio-checkmark::after {
+          display: block;
+          border: 6px solid;
+          /* Set the color of the center dot here */
+          border-radius: 100%;
+          /* Make the center dot circular */
+          /* Set the background color of the center dot here */
+          height: 6px;
+          width: 6px;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        .radio-input:checked~.c-1::after {
+          border-color: #595758;
+          background-color: #595758;
+        }
+
+        .radio-input:checked~.c-2::after {
+          border-color: #485696;
+          background-color: #485696;
+        }
+
+        .radio-input:checked~.c-3::after {
+          border-color: #f24c00;
+          background-color: #f24c00;
+        }
+
+        .radio-input:checked~.c-4::after {
+          border-color: #84a98c;
+          background-color: #84a98c;
+        }
+
+        .radio-input:checked~.c-5::after {
+          border-color: #883677;
+          background-color: #883677;
+        }
+
+        .radio-input:checked~.c-6::after {
+          border-color: #ff958c;
+          background-color: #ff958c;
+        }
+      }
+    }
+    :hover{
+      background: #dfdfdf;
+    }
+  }
+}
+
+
+.select-container {
+  padding-left: 30px;
+  /* Adjust the spacing between the radio button and the text */
+  cursor: pointer;
+}
+
+/* CustomRadioButton.css */
+
+.bc-1 {
+  color: #595758;
+}
+
+.bc-2 {
+  color: #485696;
+}
+
+.bc-3 {
+  color: #f24c00;
+}
+
+.bc-4 {
+  color: #84a98c;
+}
+
+.bc-5 {
+  color: #883677;
+}
+
+.bc-6 {
+  color: #ff958c;
+}
+
+// #84A98C
+// #883677
+//  #FF958C
+
+.control_item_select {
+  padding: 6px;
+  display: flex;
+
+ 
+
+  justify-content: center;
+}
+
+@keyframes slicedown {
+  0% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  100% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  0% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+}
+
+
+.clickable_drop_down_select{
+  z-index: 1010;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: -1rem;
+  border-radius: 0.2rem;
+  .header { 
+    text-align: center;
+    border-radius: 0.2rem; 
+    background: #eaeaea;
+    padding: 0.3rem;
+    width: 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    .icon-container {
+      width: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.2rem;
+      border-radius: 0.4rem;
+      
+    }
+    .red:hover{
+      background: #c4c4c4;
+ }
+    
+  }
+  .dropdown_list {
+    animation: slicedown 0.1s ease-out;
+    position: absolute;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: #eaeaea;
+    overflow-y:auto ;
+    max-height: 25rem;
+    .control_item {
+      padding: 14px;
+      cursor: pointer;
+      .radio-container {    
+        padding-left: 30px;
+        /* Adjust the spacing between the radio button and the text */
+        cursor: pointer;
+
+        .radio-input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+        }
+         
+      }
+    }
+    :hover{
+      background: #dfdfdf;
+    }
+  }
+  .grid{
+    display: grid;
+    grid-gap: 5px; 
+    overflow-x: visible;
+  }
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);}
+  .grid-4{
+
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+}
+.opacity-50{
+  opacity: 70%;
+}

@@ -1,0 +1,55 @@
+@import "../../styles/varaibles.scss";
+
+
+.side-bar {
+    // position: fixed;
+    width: 15%;
+    height: 100vh;
+    // background-color: $main-color;
+
+    // background: rgb(71,170,67);
+    // background: linear-gradient(0deg, rgba(71,170,67,1) 0%, rgba(29,32,28,1) 100%);
+
+    background: rgb(175,199,89);
+    background: linear-gradient(0deg, rgba(175,199,89,1) 0%, rgba(29,32,28,1) 100%);
+
+
+    min-width: 150px;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    color: white;
+    font-size: 14px;
+
+    .logo {
+        margin-left: 0.5rem;
+    }
+
+    .side-bar-menu {
+        margin-top: 2rem;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+        li a {
+            position: relative;
+            text-decoration: none;
+            color: $background-color;
+            width: 100%;
+            display: block;
+            padding: 0.7rem ;
+            .title {
+                margin-left: 1.2rem;
+            }
+        }
+        .active {
+            box-shadow: -8px 6px 9px -1px rgba(130,141,87,0.46);
+            -webkit-box-shadow: -8px 6px 9px -1px rgba(130,141,87,0.46);
+            -moz-box-shadow: -8px 6px 9px -1px rgba(130,141,87,0.46);
+            background-color: $background-color;
+            color: black;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    }
+}
